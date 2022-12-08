@@ -9,9 +9,7 @@ body{
     display: flex;
 }
 .col{
-    border: 1px solid;
     flex: 1;
-    background: antiquewhite;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -31,6 +29,7 @@ body{
 }
 
 .col button {
+    outline: none;
     border: none;
     background: transparent;
     font-size: 1.5rem;
